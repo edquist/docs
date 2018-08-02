@@ -80,7 +80,7 @@ CVMFS uses automount, and the steps to configure it are different on EL6 vs EL7.
         root@host # systemctl enable autofs
         root@host # systemctl start autofs
 
-1. Put the following in `/etc/auto.master.d/cvmfs.autofs`:
+1. Create or edit `/etc/auto.master.d/cvmfs.autofs` to have the following contents:
 
         /cvmfs /etc/auto.cvmfs
       
