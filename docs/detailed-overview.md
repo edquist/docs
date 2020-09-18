@@ -41,8 +41,8 @@ Add OSG Software
 If necessary, provision all OSG hosts that are in your site plan that do not exist yet.
 The general steps to installing an OSG site are:
 
-1. Install [OSG Yum Repos](/common/yum) and the [Compute Entrypoint software](#installing-and-configuring-the-compute-entrypoint)
-   on your CE host
+1. Install [OSG Yum Repos](/common/yum) and the
+   [Compute Entrypoint software](#installing-and-configuring-the-compute-element) on your CE host
 1. Install the [Worker Node client](#adding-osg-software-to-worker-nodes) on your worker nodes.
 1. Install [optional software](#installing-and-configuring-other-services) to increase the capabilities of your site.
 
